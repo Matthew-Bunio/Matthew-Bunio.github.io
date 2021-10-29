@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Base                                                 */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 * {
    margin: 0;
@@ -50,9 +47,7 @@ h1, h2, div, p, a, li {
 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Colors                                               */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 #course h1,
 table tr td {
@@ -74,10 +69,6 @@ table td a i:hover, footer p a i:hover {
 }
 
 
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Header                                               */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 header {
    width: 100%;
@@ -138,10 +129,6 @@ nav ul li:first-child:hover {
 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Course info                                          */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
 #course {
    text-align: center;
 }
@@ -165,10 +152,6 @@ nav ul li:first-child:hover {
 }
 
 
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*   Checkbox                                            */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .checkbox {
    display: block;
@@ -226,11 +209,6 @@ nav ul li:first-child:hover {
            transform: rotate(35deg);
 }
 
-
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*   Table                                               */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 table {
    margin-top: 3.6rem;
@@ -302,19 +280,11 @@ table td a i {
 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Break                                                */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
 #break {
    height: 14rem;
 }
 
 
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Footer                                               */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 footer {
    width: 100%;
@@ -330,9 +300,6 @@ footer p a i {
 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Logo                                                 */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #logo {
   position: absolute;
@@ -347,9 +314,6 @@ footer p a i {
 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/*  Grid                                                 */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media screen and (max-width: 959px) {
 	.container { width: 90%; }
@@ -451,3 +415,8 @@ footer p a i {
   .default:hover {
     background: #e7e7e7;
   }
+
+  .break {
+   height: 12px;
+   box-shadow: none;
+}
