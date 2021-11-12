@@ -108,7 +108,17 @@ nav ul li + li {
   background-image: linear-gradient(#355C7D,#6C5B7B, #C06C84);
   position: relative;
   top: -60px;
-  z-index: 1;
+  z-index: 2;
+}
+
+.hero-banner-article1 {
+  height: 740px;
+    background: #34e89e  #0f3443;
+    background-image: url(../style/img/hexagon.gif?v=2);
+    background-size: cover;
+    position: relative;
+    top: -60px;
+    z-index: 1;
 }
 
 .hero-banner1 {
@@ -695,3 +705,4 @@ input[type="submit"]:hover{
   padding-left: 15px;
   padding-right: 15px;
 }
+
