@@ -1,0 +1,158 @@
+@import "base.css";
+
+
+body {
+  height: 1400px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 5;
+}
+
+.media {
+  height: 40px;
+  width: 40px;
+}
+
+
+
+header {
+  min-width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h1 {
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  line-height: 60px;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 60px;
+  cursor: default;
+}
+
+nav ul li a {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: .2px;
+  text-transform: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+}
+
+nav ul li:last-child a {
+  padding: 9px 25px;
+  color: whitesmoke;
+  background: linear-gradient(0deg, #176cc0, #4f9dea);
+  border-radius: 50px;
+}
+
+nav ul li:last-child a:hover {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: transparent;
+}
+
+nav ul li + li {
+  margin-left: 25px;
+}
+
+
+
+.hero-banner {
+    height: 600px;
+    background: #000 url("Landscape-BW.jpg") center center / cover no-repeat;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+.hero-banner h2 {
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hero-banner h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.hero-banner hr {
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 22px;
+    border-top: 3px solid #2c8ae6;
+}
+
+.hero-banner p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    z-index: 5555;
+}
+
+img{
+ width: 100%;
+}
