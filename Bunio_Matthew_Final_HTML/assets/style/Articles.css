@@ -113,8 +113,8 @@ nav ul li + li {
 
 .hero-banner1 {
     height: 785px;
-    background-color: lightgrey;
-    color: lightgrey;
+    background-color: red;
+    color: red;
     position: relative;
     top: -60px;
     z-index: 1;
